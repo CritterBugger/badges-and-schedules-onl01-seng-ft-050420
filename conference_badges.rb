@@ -17,3 +17,7 @@ def assign_rooms(speakers)
     assignments.push("Hello, #{speaker}! You'll be assigned to room #{speakers.index + 1}!")
   end
 end
+
+def printer
+  batch_badge_creator
+end
