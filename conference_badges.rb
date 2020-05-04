@@ -20,6 +20,8 @@ def assign_rooms(speakers)
   speakers.each do |speaker|
     assignments.push("Hello, #{speaker}! You'll be assigned to room #{speakers.index + 1}!")
   end
+  
+  return assignments
 end
 
 def printer
